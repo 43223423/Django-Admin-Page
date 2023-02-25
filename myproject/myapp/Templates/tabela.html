@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tifefefefetle</title>
+    <style>
+        body{
+        background-color:gray;
+
+        }
+
+
+
+
+    </style>
+
+</head>
+<body>
+
+
+<form method="post" action="{% url 'tabela' %}">{% csrf_token %}
+    <input type="text" placeholder="Nome do produto" name="codigo">
+    <br>
+    <br>
+    <input type="text" placeholder="Descrição do Produto" name="decri">
+    <br>
+    <br>
+    <br>
+    <input type="submit" placeholder="Cadastrar Produto">
+
+
+
+
+
+
+
+
+
+</form>
+
+
+<script>
+
+</script>
+</body>
+</html>
